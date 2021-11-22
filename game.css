@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-top: 30px;
+  background-color: #0a1a2b;
+  box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+}
+.line{
+  border-top: 5px solid rgb(230, 144, 144);
+}
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  background-image: -webkit-linear-gradient(
+    left,
+    #f00,
+    #ff2b00,
+    #f50,
+    #ff8000,
+    #fa0,
+    #ffd500,
+    #ff0,
+    #d4ff00,
+    #af0,
+    #80ff00,
+    #5f0,
+    #18cddd,
+    #0f0,
+    #00ff2a,
+    #0f5,
+    #00ff80,
+    #0fa,
+    #00ffd5,
+    #0ff,
+    #00d5ff,
+    #0af,
+    #0a1a2b,
+    #05f,
+    #002aff,
+    #00f,
+    #2b00ff,
+    #50f,
+    #8000ff,
+    #a0f,
+    #d400ff,
+    rgb(8, 8, 8),
+    #ff00d4,
+    #f0a,
+    #ff0080,
+    #f05,
+    #ff002b,
+    #f00
+  );
+  animation: animatedBackground_a 5s linear infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  background-clip: text;
+}
+.some-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  background-image: -webkit-linear-gradient(
+    left,
+    #f00,
+    #ff2b00,
+    #f50,
+    #ff8000,
+    #fa0,
+    #ffd500,
+    #ff0,
+    #d4ff00,
+    #af0,
+    #80ff00,
+    #5f0,
+    #18cddd,
+    #0f0,
+    #00ff2a,
+    #0f5,
+    #00ff80,
+    #0fa,
+    #00ffd5,
+    #0ff,
+    #00d5ff,
+    #0af,
+    #0a1a2b,
+    #05f,
+    #002aff,
+    #00f,
+    #2b00ff,
+    #50f,
+    #8000ff,
+    #a0f,
+    #d400ff,
+    rgb(8, 8, 8),
+    #ff00d4,
+    #f0a,
+    #ff0080,
+    #f05,
+    #ff002b,
+    #f00
+  );
+  animation: animatedBackground_a 5s linear infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  background-clip: text;
+}
+@keyframes animatedBackground_a {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -500px 0;
+  }
+}
+.secretNumber {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  background: rgb(53, 51, 51);
+  margin-top: 30px;
+  height: 10vh;
+  width: 20vh;
+  color: #fff;
+  margin-left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(12, 219, 238);
+  box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+}
+input {
+  margin-top: 50px !important;
+  height: 7vh;
+  width: 35vh;
+  padding: 3px;
+  box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+}
+
+hr {
+  border: 3px solid rgb(0, 0, 0);
+}
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  padding: 10px !important;
+  color: #0a1a2b !important;
+}
+.message,
+.score,
+.highScore {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 40px;
+}

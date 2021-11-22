@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Guess the number Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading text-center">Guess the Number!</h1>
+      <h3 class="some-text text-center">(Between 1 and 20)</h3>
+      <hr class=  "line"/>
+      <div class="game-main-container">
+        <div class="secretNumber text-center">?</div>
+        <br />
+        <div class="row text-center">
+          <div class="col-sm-6">
+            <input type="text" class="guessNumber" />
+            <br />
+            <br />
+            <button class="check btn btn-info">Check!</button>
+            <button class="again btn btn-danger">Again!</button>
+          </div>
+          <div class="col-sm-6">
+            <p class="message">Message</p>
+            <br />
+            <br />
+            <p class="score">Score : 20</p>
+            <br />
+            <br />
+            <p class="highScore">HighScore:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
